@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vodafone TR – Entertainment Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div class="hero__badge">Mobile-only · Vodafone TR</div>
+        <h1>Pick your entertainment</h1>
+        <p>
+          You’ll complete your subscription inside the Vodafone app. This page
+          opens the in-app purchase flow for your chosen service.
+        </p>
+      </header>
+
+      <section class="cards" aria-label="Services">
+        <article class="card" data-service="playweez">
+          <div class="card__top">
+            <h2>Playweez</h2>
+            <p>Games, challenges, and instant play.</p>
+          </div>
+          <button class="card__cta" type="button">Open in Vodafone</button>
+        </article>
+
+        <article class="card" data-service="veedz">
+          <div class="card__top">
+            <h2>Veedz</h2>
+            <p>Short video bursts tailored to you.</p>
+          </div>
+          <button class="card__cta" type="button">Open in Vodafone</button>
+        </article>
+
+        <article class="card" data-service="astrolojimclub">
+          <div class="card__top">
+            <h2>AstrolojimClub</h2>
+            <p>Daily insights, charts, and cosmic tips.</p>
+          </div>
+          <button class="card__cta" type="button">Open in Vodafone</button>
+        </article>
+      </section>
+
+      <section class="notice" aria-live="polite">
+        <h3>Important</h3>
+        <ul>
+          <li>Desktop is not supported for this flow.</li>
+          <li>If the Vodafone app is missing, you’ll be sent to the app store.</li>
+          <li>No tracking node is used in this setup.</li>
+        </ul>
+        <p class="notice__hint" id="platformHint"></p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

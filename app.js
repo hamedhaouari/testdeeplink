@@ -11,8 +11,8 @@
 };
 
 const STORE_LINKS = {
-  android: "https://play.google.com/store/apps/details?id=com.vodafone.app.fake",
-  ios: "https://apps.apple.com/app/vodafone-fake/id1234567890",
+  android: "https://play.google.com/store/apps/details?id=com.vodafone.selfservis",
+  ios: "https://apps.apple.com/tr/app/vodafone-yan%C4%B1mda/id489845659",
 };
 
 const platformHint = document.getElementById("platformHint");
@@ -77,3 +77,4 @@ const wireUpCards = () => {
 
 setHint();
 wireUpCards();
+
